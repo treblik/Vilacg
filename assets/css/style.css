@@ -107,20 +107,23 @@ h6 {
     background-attachment: fixed;
   }
 }
-
+ 
 #hero .hero-logo {
-  margin: 20px;
+  text-align: left;
+  margin: 30px;
+ margin-left: 20px;
+ margin-top: auto;
 }
 
 #hero .hero-logo img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #hero .hero-container {
   background: rgba(0, 0, 0, 0.6);
   display: table-cell;
   margin: 0;
-  padding: 0;
+  padding: 3px;
   text-align: center;
   vertical-align: middle;
 }
@@ -221,9 +224,12 @@ h6 {
 #header.fixed-top {
   background: rgba(0, 0, 0, 0.85);
 }
+#img.logo{
+ 
+}
 
 #header .logo {
-  font-size: 30px;
+  font-size: 130px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -237,7 +243,7 @@ h6 {
 }
 
 #header .logo img {
-  height: 50px;
+  height: 110px;
 }
 
 .scrolled-offset {
@@ -1064,3 +1070,6 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+wa{ position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank"}
+<i class="wa" style="margin-top:16px" class="fa fa-whatsapp"></i>
