@@ -110,9 +110,10 @@ h6 {
  
 #hero .hero-logo {
   text-align: left;
-  margin: 30px;
- margin-left: 20px;
- margin-top: auto;
+  margin: 180px;
+ margin-left:30px;
+ margin-top: 10px;
+
 }
 
 #hero .hero-logo img {
@@ -243,7 +244,8 @@ h6 {
 }
 
 #header .logo img {
-  height: 110px;
+  height: 90px;
+  padding-bottom: 20px;
 }
 
 .scrolled-offset {
@@ -368,6 +370,13 @@ h6 {
     left: -100%;
   }
 }
+ #hist{ text-align:justify}
+ .about-text {
+  text-align:justify
+ }
+ .service-description{
+  text-align:left
+ }
 
 /**
 * Mobile Navigation 
